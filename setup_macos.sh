@@ -27,6 +27,7 @@ CLI_BREWS=(
     pritunl
     python3
     tmux
+    tree
     wget
     z
 )
@@ -72,6 +73,7 @@ compaudit | xargs chmod g-w
 
 # Setup
 mkdir "~/5Minds"
+mkdir "~/dev"
 mkdir "~/.ssh"
 
 git clone git://github.com/larspapen/dotfiles.git $REPO_NAME
@@ -96,9 +98,6 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
 defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-
-# Setup venv manually
-# cd ~/5Minds/${REPO_NAME}/FlappyBird && python3 -m venv venv && source ./venv/bin/activate && pip3 install pygame &&
 
 # Finish
 echo "You may stillt want to configure the following things:"
