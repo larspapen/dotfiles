@@ -51,7 +51,6 @@ mkdir "$HOME/.ssh"
 mkdir "$HOME/.config"
 
 mkdir "$HOME/.config/fish"
-ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/nvim/init.vim" "$HOME/.config/nvim/init.vim"
 ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/starship/starship.toml" "$HOME/.config/starship.toml"
 ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/fish/config.fish" "$HOME/.config/fish/config.fish"
 ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/fish/functions" "$HOME/.config/fish/functions"
