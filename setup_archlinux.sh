@@ -57,3 +57,4 @@ ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/fish/functions" "$HOME/.config/fi
 
 # Link folders
 ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/git" "$HOME/.config/git"
+ln -sf "/Users/larspapen/dev/dotfiles/dotfiles/kitty" "$HOME/.config/kitty"
